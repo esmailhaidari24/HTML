@@ -1,0 +1,69 @@
+/* Style général de la page */
+body {
+    background-color: lightgray;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 400px;
+    background-color: white;
+    margin: 150px auto;
+    padding: 30px;
+    text-align: center;
+    border: 1px dotted gray;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Photo de profil */
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-bottom: 15px;
+}
+
+/* Titre (nom de la personne) */
+.titre {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Sous-titre */
+.sous_titre {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Section des logos sociaux */
+.social {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacement entre les logos */
+}
+
+/* Logos des réseaux sociaux */
+.image {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px double gray;
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.image:hover {
+    transform: scale(1.2); /* Agrandissement au survol */
+}
