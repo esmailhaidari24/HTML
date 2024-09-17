@@ -1,0 +1,183 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #c0baba;
+}
+
+/* Header Styling */
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #65686b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section of Header */
+.header .left {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .menu ul li {
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c6ced0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header .menu ul li:hover {
+    color: #3498db;
+}
+
+/* Right Section of Header */
+.header .right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .right ul .ali {
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header .right ul .ali:hover {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Section1 Styling */
+.section1 {
+    height: 550px;
+    display: flex;
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    color: white;
+}
+
+/* Left Section of Section1 */
+.section1 .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bio {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Buttons */
+.btm1, .btm2 {
+    width: 220px;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btm1 {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btm1:hover {
+    background-color: #c0392b;
+}
+
+.btm2 {
+    background-color: #f39c12;
+    color: white;
+}
+
+.btm2:hover {
+    background-color: #e67e22;
+}
+
+/* Right Section of Section1 */
+.section1 .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 570px;
+    height: 450px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h2 {
+    color: #333;
+}
+
+.code {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: 20px auto;
+    border-left: 5px solid green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.face {
+    width: 140px;
+    padding: 10px;
+    background-color: #2ecc71;
+    border-radius: 20px;
+    color: white;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.face:hover {
+    background-color: #27ae60;
+}
