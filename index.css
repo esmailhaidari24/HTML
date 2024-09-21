@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     background-color: #c0baba;
 }
 
-/* Header Styling */
+
 .header {
     height: 80px;
     width: 100%;
@@ -23,7 +23,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Section of Header */
 .header .left {
     display: flex;
     align-items: center;
@@ -74,7 +73,6 @@ body {
     color: white;
 }
 
-/* Section1 Styling */
 .section1 {
     height: 550px;
     display: flex;
@@ -82,7 +80,7 @@ body {
     color: white;
 }
 
-/* Left Section of Section1 */
+
 .section1 .left {
     width: 50%;
     display: flex;
@@ -106,7 +104,7 @@ body {
     text-align: center;
 }
 
-/* Buttons */
+
 .btm1, .btm2 {
     width: 220px;
     padding: 15px;
@@ -136,7 +134,6 @@ body {
     background-color: #e67e22;
 }
 
-/* Right Section of Section1 */
 .section1 .right {
     width: 50%;
     display: flex;
