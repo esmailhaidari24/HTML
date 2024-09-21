@@ -10,7 +10,7 @@
 
 * Création d'un Portfolio en HTML et CSS
 
-Dans cet exercice, j'ai eu l'occasion de pratiquer et réviser mes compétences en HTML et CSS en réalisant un portfolio simple. L'objectif était de consolider mes connaissances des éléments de base tels que les balises HTML, la structure d'une page web, ainsi que l'application de styles CSS pour la mise en page et le design.
+Dans cet exercice, j'ai pratiqué et réviser mes compétences en HTML et CSS en réalisant un portfolio simple. L'objectif était de consolider mes connaissances des éléments de base tels que les balises HTML, la structure d'une page web, ainsi que l'application de styles CSS pour la mise en page et le design.
 
 ![](https://github.com/esmailhaidari24/HTML/blob/main/Capture%20d%E2%80%99e%CC%81cran%201403-06-29%20a%CC%80%2016.13.50.png)
 
